@@ -81,5 +81,53 @@ p {
     font-weight: bold;
     text-decoration: none;
     color: black;
-    margin:30px;
+    margin:30px
+}
+
+.container-about-page p{   
+    margin-left: 20px;
+}
+
+.container-about-page h2{   
+    margin-left: 20px;
+}
+
+.image-containers{
+    display:flex;
+    flex-flow: row wrap;
+    margin:10px;
+}
+
+.image-containers > div{
+    width:50%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.container h3{
+    padding-top: 3%;
+}
+
+span{
+    padding-bottom: 3%;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
