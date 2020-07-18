@@ -75,10 +75,19 @@ p {
 .navbar{
     width:800px;
     display:flex;
-    justify-content: space-between;
-    padding: 10px;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    padding: 3%;
 }
 
+.navbar nav a{
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin:30px;
+}
 
 .top-content {
     display: flex;
