@@ -105,6 +105,14 @@ p {
     padding-top: 2%;
 }
 
+.image-containers button{
+    border-radius: 15%;
+    display:block;
+    width: 100px;
+    height:30px;
+    margin-top: 10px;
+}
+
 .container h3{
     padding-top: 3%;
 }
