@@ -68,11 +68,12 @@ p {
 
 
 .navbar{
-    width:800px;
+    width:100%;
     display:flex;
     align-content: space-between;
     flex-wrap: nowrap;
     padding: 3%;
+    margin-right: inherit;
 }
 
 .navbar nav a{
